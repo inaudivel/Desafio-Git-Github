@@ -2,7 +2,7 @@ Algoritmo "semnome"
 
 Var
 
-   soma, N, M : inteiro
+   soma, multiplicacao, N, M : inteiro
 
 Inicio
 
@@ -13,6 +13,11 @@ Inicio
    
    soma <- N + M
    
+   multiplicacao <- N * M
+   
    escreval("Soma = ", soma)
+   escreval("Multiplicação = ", multiplicacao)
+   
+   
 
 Fimalgoritmo
